@@ -1,0 +1,355 @@
+.navtop {
+	background-color: #2f3947;
+	height: 20px;
+	width: 100%;
+	border: 0;
+}
+.navtop div {
+	display: flex;
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+
+}
+.navtop div h1, .navtop div a {
+	display: inline-flex;
+	align-items: start;
+	position: relative;
+    left: 440px;
+}
+.navtop div h1 {
+	flex: 1;
+	font-size: 24px;
+	padding: 0;
+	margin: 0;
+	color: #eaebed;
+	font-weight: normal;
+}
+.navtop div a {
+	padding: 0 20px;
+	text-decoration: none;
+	color: #c1c4c8;
+	font-weight: bold;
+}
+.navtop div a i {
+	padding: 2px 8px 0 0;
+}
+.navtop div a:hover {
+	color: #222;
+}
+body.loggedin {
+	background-color:#f3f4f7;
+	background-image: url("image3.jpg") ;
+	background-size: cover;
+  	background-repeat: no-repeat;
+    background-position: center;
+    background-color: #111;
+}
+
+.content {
+	width: 1000px;
+	margin: 0 auto;
+
+}
+.content h2 {
+	margin: 0;
+	padding: 25px 0;
+	font-size: 25px;
+	border-bottom: 1px solid #e0e0e3;
+	color: #fff;
+	place-items: center;
+	float: center;
+}
+.content > p, .content > div {
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	margin: 25px 0;
+	padding: 25px;
+	background-color: #2f3947;
+	color: #fff;
+}
+.content > p table td, .content > div table td {
+	padding: 5px;
+	color: #fff;
+}
+.content > p table td:first-child, .content > div table td:first-child {
+	font-weight: bold;
+	color: #fff;
+	padding-right: 15px;
+}
+.content > div p {
+	padding: 5px;
+	margin: 0 0 10px 0;
+}
+
+ul {
+	padding: 15px;
+	list-style: none;
+	background: #2f3947;
+	
+}
+ul li {
+	display: inline-block;
+	position: relative;
+	line-height: 21px;
+	text-align: left;
+	background: #2f3947;
+
+}
+ul li a {
+	display: block;
+	padding: 8px 25px;
+	color: #fff;
+	text-decoration: none;
+	background: #2f3947;
+	position: relative;
+   right: 10px;
+   width: 100px;
+
+}
+ul li a:hover {
+	color: #fff;
+	background: #2f3947;
+   align-items: right; 
+ 
+	  }
+ul li ul.dropdown {
+	min-width: 100%; /* Set width of the dropdown */
+	background: #2f3947;
+	display: none;
+	position: absolute;
+	z-index: 999;
+	left: 0;
+
+}
+ul li:hover ul.dropdown {
+	display: block; /* Display the dropdown */
+}
+ul li ul.dropdown li {
+	display: block;
+
+}
+form {
+display: flex;
+flex-wrap: wrap;
+color: #fff;
+justify-content: center;
+padding-top: 20px;
+border-radius: 20px;
+
+}
+ input[type="password"],  input[type="text"], select {
+width: 190px;
+height: 40px;
+border: 2px solid #000;
+font-weight: bold;
+margin-bottom: 0px;
+font-size: 17px;
+padding: 0 0px;
+border-radius: 20px;
+background-color: #afd4ff;
+text-align: center;
+
+}
+button {
+width: 100%;
+padding: 15px;
+margin-top: 20px;
+background-color: #fc0000;
+border: 0;
+cursor: pointer;
+font-weight: bold;
+color: #ffffff;
+transition: background-color 0.2s;
+border:1px solid #000000;
+display:inline-block;
+border-radius: 20px;}
+
+.bt {
+	box-shadow: 0px 0px 0px 2px #77d42a;
+	background:linear-gradient(to bottom, #77d42a 5%, #77d42a 100%);
+	background-color:#77d42a;
+	border-radius:20px;
+	border:1px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #77d42a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 40px;
+
+}
+.container {
+	float: left;
+
+  }
+  .container2 {
+	float: right;
+
+  }
+  .container3 {
+	float: center;
+
+  }
+.bt2 {
+	box-shadow: 0px 0px 0px 2px #3274d6;
+	background:linear-gradient(to bottom, #3274d6 5%, #3274d6 100%);
+	background-color:#3274d6;
+	border-radius:20px;
+	border:2px solid #000000;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3274d6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 10%;
+	float: left;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 0px;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+	
+	}
+	.bt3 {
+		box-shadow: 0px 0px 0px 2px #3274d6;
+		background:linear-gradient(to bottom, #3274d6 5%, #3274d6 100%);
+		background-color:#3274d6;
+		border-radius:20px;
+		border:2px solid #000000;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:Arial;
+		font-size:15px;
+		text-decoration:none;
+		text-shadow:0px 1px 0px #3274d6;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 20%;
+		height:70%;
+		float: left;
+		padding: 6px;
+		margin-top: 8px;
+		margin-right: 0px;
+		font-size: 17px;
+		border: none;
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+		}
+
+		.bt4 {
+			box-shadow: 0px 0px 0px 2px #3274d6;
+			background:linear-gradient(to bottom, #3274d6 5%, #3274d6 100%);
+			background-color:#3274d6;
+			border-radius:20px;
+			border:2px solid #000000;
+			display:inline-block;
+			cursor:pointer;
+			color:#ffffff;
+			font-family:Arial;
+			font-size:15px;
+			text-decoration:none;
+			text-shadow:0px 1px 0px #3274d6;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 25%;
+			height:50%;
+			float: left;
+			padding: 6px;
+			margin-top: 8px;
+			margin-right: 0px;
+			font-size: 17px;
+			border: none;
+			cursor: pointer;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
+			}
+label {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 40px;
+	background-color: #3274d6;
+	color: #ffffff;
+  border-radius: 20px;
+
+}
+
+
+input[type="submit"]:hover {
+background-color: #2868c7;
+transition: background-color 0.2s;
+}
+
+input[type=date] {
+	width: 70%;
+	height:55%;
+    padding: 12px 20px;
+    margin: 0px 0;
+	background-color: #afd4ff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+
+table.Table {
+	border: 0px solid #FFFFFF;
+	background-color: #FFFFFF;
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	border-radius: 20px;
+	
+  }
+  table.Table td, table.Table th {
+	border: 0px solid #AAAAAA;
+	padding: 0px 0px;
+	height:45px;
+
+
+	
+  }
+  table.Table tbody td {
+	font-size: 17px;
+	
+  }
+  table.Table thead {
+	background: #2868C7;
+	background: -moz-linear-gradient(top, #5e8ed5 0%, #3d77cc 66%, #2868C7 100%);
+	background: -webkit-linear-gradient(top, #5e8ed5 0%, #3d77cc 66%, #2868C7 100%);
+	background: linear-gradient(to bottom, #5e8ed5 0%, #3d77cc 66%, #2868C7 100%);
+	border-bottom: 6px solid #444444;
+
+	
+  }
+  
+  table.Table thead th:first-child {
+	border-left: none;
+  }
+  
+ 

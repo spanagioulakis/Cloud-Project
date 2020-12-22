@@ -1,0 +1,1 @@
+[{"_id":{"$oid":"5fde3343a6259600063bfe3c"},"title":"Lucifer","start_date":{"$date":"2020-12-15T00:00:00.000Z"},"end_date":{"$date":"2021-05-15T00:00:00.000Z"},"cinema_name":"Ellinis","category":"Comedy"}]
